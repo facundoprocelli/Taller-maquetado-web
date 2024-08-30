@@ -40,13 +40,12 @@ html {
     padding: 0 10px;
     font-size: 18px;
     vertical-align: middle;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .mi-li:hover {
     color: #0086df;
     transform: scale(1.1);
-    transition: transform 0.3s ease, color 0.3s ease;
-
 }
 
 
@@ -85,6 +84,7 @@ html {
     background-color: aliceblue;
     text-decoration: none;
     border-radius: 8px;
+    transition: background-color 0.5s ease; 
 }
 
 
@@ -93,5 +93,4 @@ html {
     color: #f0f8ff;
     border: 2px solid #f0f8ff;
     padding: 8px 13px;
-    transition: background-color 0.5s ease; 
 }
