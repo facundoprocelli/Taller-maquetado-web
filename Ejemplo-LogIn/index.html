@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba LogIn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <img src="basico.png" alt="login-icon" class="icon" />
+      <h2 class="acceso">Acceso</h2>
+
+      <form action="/login" method="post" class="login">
+
+        <div class="email">
+            <label for="email" >E-Mail</label>
+            <input type="email" name="email" id="email" required />
+        </div>
+            
+        <div class="contrasena">
+            <label for="password" >Contraseña:</label>
+            <input type="password" name=password" id="password" required />
+        </div>
+
+        <button type="submit" class="btn-ingresar">Ingresar</button>
+      </form>
+    </div>
+  </body>
+</html>

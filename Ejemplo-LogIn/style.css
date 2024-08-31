@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #aaa;
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    display: block;
+    background-color: #666;
+    margin: 100px auto;
+    border-radius: 10px;
+
+}
+
+
+.login {
+    background-color: #666;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.acceso {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    color: #f0f8ff;
+}
+
+.email {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.email label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family:sans-serif
+}
+
+.email input {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.contrasena {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.contrasena label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family:sans-serif
+}
+
+
+.contrasena input {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.btn-ingresar {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
