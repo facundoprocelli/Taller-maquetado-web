@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrado {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10 px == 1 rem*/
+}
+
+*, *:after,*:before{
+    box-sizing: inherit;
+}
+
+
+
+.main {
+    display: flex;   /* Nos permite usar flexbox*/
+    flex-direction: row;  /*Decimos la dirección del flex*/
+    justify-content: center; /*Nos permite alinear el contendio horizontalemnte*/
+    align-items: center; /*Alinea los elemntos verticalmente */
+    flex-wrap:  wrap; /*Es de que forma se va a acomodar los hijos */
+    gap: 1rem ; /*Gap se usa para agregar espacios entre elementos*/
+    background-color: aqua;
+    padding: 1rem 0;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

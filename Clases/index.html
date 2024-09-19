@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+    <h1>Gestión tareas</h1>
+    <form id  = "formulario">
+        <legend>Agregar nueva tarea</legend>
+
+        <label for="tarea">Tarea</label>
+        <input type="text" id="tarea" name="tarea" placeholder="Escribe una tarea" required>
+    <button type="submit">Agregar</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Id Tarea</th>
+                <th>Tarea</th>
+            </tr>
+        </thead>
+        <tbody id="listaTareas"></tbody>
+    </table>
+</main>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
